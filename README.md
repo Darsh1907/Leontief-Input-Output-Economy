@@ -14,21 +14,21 @@ git clone https://github.com/Darsh1907//Leontief-Input-Output-Economy.git
 cd Leontief-Input-Output-Economy
 ```
 
-3. Run the Program:
+2. Run the Program:
 ```
 python code.py
 ```
 
-5. Input-Output Matrix (IOM):
+3. Input-Output Matrix (IOM):
 Modify the `A` array in the `leontief_solver.py` file to represent the Input-Output matrix of your specific economy.
 
-6. Expected External Demand:
+4. Expected External Demand:
 Modify the D array to represent the expected demand vector. The vector should be defined as follows:
 ```
 D = np.array([d1, d2, d3])
 ```
 
-8. Run the Program:
+5. Run the Program:
 Run the modified code.py script to calculate the required production levels and determine if the internal demand can be met.
 
 ## Results
